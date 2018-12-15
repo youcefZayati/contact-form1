@@ -1,0 +1,76 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background:aliceblue;
+}
+
+input[type=submit] {
+  background-color: rgb(76, 172, 175);
+  color: rgba(255, 255, 255, 0.774);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a091;
+}
+
+.container1 {
+    width: 500px;
+  background: rgba(255, 255, 255, 0.877);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 42px 55px 45px 55px;
+}
+.container{
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #a64bf4;
+    background: -webkit-linear-gradient(45deg, #00dbde, #e065e2);
+    background: -o-linear-gradient(45deg, #e1f1f1, #fc00ff);
+    background: -moz-linear-gradient(45deg, #1cced1, #dd01e0);
+    background: linear-gradient(45deg, #06bbbe, #c263c4);
+    
+  }
+  .contact-form-title {
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+  }
+  .fname{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 2em;
+  }
+  
+  
+
